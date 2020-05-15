@@ -39,13 +39,14 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
-
+Standard relational databases enable users to manage predefined data relationships across multiple databases.
+SQL is used to manage dbs and with a helpful visual 
 - [ ] Why do tables need a `primary key`?
-
+A primary key is a table column that serves a special purpose The values that compose a primary key column are unique; no two values are the same. 
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+Foreign Key
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
-
+A many-to-many relationship occurs when multiple records in a table are associated with multiple records in another table. - many to many - having charts take multiple properties from eachother
 ## Minimum Viable Product
 
 Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.

@@ -7,7 +7,8 @@ exports.up = function(knex) {
       tasks.boolean("completed").notNullable();
       
       tasks.integer("project_id").notNullable()
-      .references("id").inTable("project")
+      .references("id")
+      .inTable("projects")
       .onUpdate('CASCADE')
       .onDelete('CASCADE');
 
